@@ -1,0 +1,28 @@
+site_name: vf-wiki
+site_description: Markdown knowledge base for humans and LLMs
+docs_dir: docs
+site_dir: ../vf-wiki-site
+strict: true
+theme:
+  name: readthedocs
+plugins:
+  - search
+  - mermaid2:
+      arguments:
+        theme: neutral
+nav:
+  - Home: index.md
+  - Repository Overview: repository_overview.md
+  - Governance:
+      - Lifecycle Model: 00_governance/lifecycle_model.md
+      - Naming and Identification Convention: 00_governance/naming_identification_convention.md
+      - Tailoring and Derived Documents Register: 00_governance/tailoring_derived_documents_register.md
+  - Agent Guide: AGENTS.md
+markdown_extensions:
+  - tables
+  - pymdownx.snippets:
+      base_path: .
+      check_paths: true
+      restrict_base_path: true
+  - toc:
+      permalink: true

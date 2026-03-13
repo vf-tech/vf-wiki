@@ -1,0 +1,16 @@
+# Enforce LF line endings for all text files.
+# This prevents accidental CRLF/LF churn across Windows/macOS/Linux.
+*	text=auto eol=lf
+
+# Common binary formats
+*.png	binary
+*.jpg	binary
+*.jpeg	binary
+*.gif	binary
+*.pdf	binary
+*.zip	binary
+*.gz	binary
+*.7z	binary
+*.ico	binary
+*.exe	binary
+*.dll	binary
