@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-
+ROOT_DIR="$(git rev-parse --show-toplevel)"
 printf '%s\n' 'Running docs validation before push...'
 printf '%s\n' 'Linting Markdown...'
 npx markdownlint-cli2 "**/*.md"
