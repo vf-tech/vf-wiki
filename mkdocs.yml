@@ -1,7 +1,7 @@
 site_name: vf-wiki
 site_description: Markdown knowledge base for humans and LLMs
 docs_dir: docs
-site_dir: ../vf-wiki-site
+site_dir: site
 strict: true
 theme:
   name: readthedocs
