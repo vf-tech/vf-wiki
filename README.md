@@ -54,6 +54,14 @@ scripts/docs.sh serve
 scripts/docs.sh build
 ```
 
+Optional local Git hook:
+
+```bash
+scripts/install-hooks.sh
+```
+
+This installs a `pre-push` hook that runs `scripts/docs.sh build` before each push.
+
 To preview locally:
 
 ```bash
