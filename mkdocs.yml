@@ -13,6 +13,7 @@ plugins:
 nav:
   - Home: index.md
   - Repository Overview: repository_overview.md
+  - Repository Structure: repo_structure.md
   - Governance:
       - Lifecycle Model: 00_governance/lifecycle_model.md
       - Naming and Identification Convention: 00_governance/naming_identification_convention.md

@@ -15,6 +15,7 @@ The Git repository is the source of truth. MkDocs is a lightweight browse layer 
 
 - `README.md` - repository purpose, structure, and working model.
 - `AGENTS.md` - guidance for AI agents working in the repo.
+- `docs/repo_structure.md` - authoritative repository layout and path roles.
 - `docs/00_governance/lifecycle_model.md` - lifecycle backbone and baseline model.
 - `docs/00_governance/naming_identification_convention.md` - file and identifier rules.
 - `docs/00_governance/tailoring_derived_documents_register.md` - artifact catalog and tailoring decisions.
@@ -60,7 +61,14 @@ Optional local Git hook:
 scripts/install-hooks.sh
 ```
 
-This installs a `pre-push` hook that runs `scripts/docs.sh build` before each push.
+This installs a `pre-push` hook that runs Markdown linting and `scripts/docs.sh build` before each push.
+
+Recommended validation commands:
+
+```bash
+npx markdownlint-cli2 "**/*.md"
+scripts/docs.sh build
+```
 
 To preview locally:
 

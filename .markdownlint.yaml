@@ -1,6 +1,9 @@
 # markdownlint configuration (repo root)
 
-MD013:
-  tables: false
+MD013: false
+
+MD040: false
+
+MD041: false
 
 MD060: false

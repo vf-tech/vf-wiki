@@ -4,4 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 printf '%s\n' 'Running docs validation before push...'
+printf '%s\n' 'Linting Markdown...'
+npx markdownlint-cli2 "**/*.md"
+printf '%s\n' 'Building docs...'
 "$ROOT_DIR/scripts/docs.sh" build
