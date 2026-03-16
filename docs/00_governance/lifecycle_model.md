@@ -205,7 +205,9 @@ Lifecycle progression is controlled through progressive baselines:
   constraints, and operational scenarios into a controlled `SSS-SYS.md`
   baseline candidate.  
   The pre-baseline workflow is described in
-  `docs/10_lifecycle/t0_b0/b0_requirement_capture_process.md`.
+  `docs/10_lifecycle/t0_b0/b0_requirement_capture_process.md`. B0 readiness and
+  the final `Go` / `Hold` decision are governed by
+  `docs/10_lifecycle/t0_b0/b0_readiness_review.md`.
 
 - **B1 — Derived Requirements Baseline**  
   SRS and HRS consistent with SSS allocation.
@@ -257,6 +259,7 @@ Deviation from this lifecycle requires formal approval.
 | v0.1    | 2026-02-19 | Add normative verification-centric V-model lifecycle definition |
 | v0.2    | 2026-03-13 | Normalize planned B0 requirement capture process path to repo naming style |
 | v0.3    | 2026-03-16 | Point B0 pre-baseline workflow reference to the lifecycle section |
+| v0.4    | 2026-03-16 | Link the B0 baseline point to both capture and readiness review workflows |
 
 ---
 

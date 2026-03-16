@@ -25,12 +25,18 @@ If you are new to this repository, follow this path:
    - Read: [Agent Guide](AGENTS.md)
 
 5. **Follow lifecycle transition processes when needed**
-   - Read: [Lifecycle Processes](10_lifecycle/index.md)
+    - Read: [Lifecycle Processes](10_lifecycle/index.md)
+
+   **T0 to B0 quick start:**
+   - [Lifecycle Model](00_governance/lifecycle_model.md)
+   - [B0 Requirement Capture Process](10_lifecycle/t0_b0/b0_requirement_capture_process.md)
+   - [B0 Readiness Review](10_lifecycle/t0_b0/b0_readiness_review.md)
+   - [T0 to B0 to SSS-SYS Mapping](10_lifecycle/t0_b0/t0_b0_to_sss_sys_mapping.md)
 
 6. **Use templates when instantiating project artifacts**
    - Read: [Templates](90_templates/index.md)
 
-After these four steps you should understand:
+After these steps you should understand:
 
 - how the lifecycle works
 - what documents exist
