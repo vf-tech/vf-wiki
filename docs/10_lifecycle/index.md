@@ -16,6 +16,8 @@ and readiness activities for specific lifecycle transitions.
   baseline readiness workflow for the initial `SSS-SYS.md` baseline.
 - [B0 Readiness Review](t0_b0/b0_readiness_review.md) - review and decision
   workflow for establishing the initial `SSS-SYS.md` baseline.
+- [T0 to B0 to SSS-SYS Mapping](t0_b0/t0_b0_to_sss_sys_mapping.md) - mapping
+  guidance from T0-B0 outputs into the `SSS-SYS.md` template structure.
 
 ## Usage
 

@@ -36,6 +36,16 @@ Lifecycle-stage process guidance lives under `docs/10_lifecycle/`.
 These documents describe how teams move between lifecycle states and baselines.
 They complement governance rules but do not replace them.
 
+## Template Documents
+
+Reusable document templates live under `docs/90_templates/`.
+
+- `docs/90_templates/index.md`
+- `docs/90_templates/02_requirements/00_system/SSS-SYS.md`
+
+These templates provide reference structures for project artifacts. They are not
+the controlled project baselines themselves.
+
 ## Wrapper and Navigation Pages
 
 Some files exist mainly to support browsing and navigation.
@@ -57,4 +67,4 @@ These pages should remain thin and should not drift from the canonical source do
 - Add new canonical knowledge artifacts as plain Markdown in stable repo paths.
 - Keep naming aligned with `docs/00_governance/naming_identification_convention.md`.
 - Prefer extending existing source areas over creating site-only copies.
-- Keep lifecycle process documents under `docs/10_lifecycle/` and templates under a separate top-level docs area when introduced.
+- Keep lifecycle process documents under `docs/10_lifecycle/` and templates under `docs/90_templates/`.

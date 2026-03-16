@@ -27,6 +27,9 @@ If you are new to this repository, follow this path:
 5. **Follow lifecycle transition processes when needed**
    - Read: [Lifecycle Processes](10_lifecycle/index.md)
 
+6. **Use templates when instantiating project artifacts**
+   - Read: [Templates](90_templates/index.md)
+
 After these four steps you should understand:
 
 - how the lifecycle works
@@ -48,5 +51,6 @@ The current baseline covers:
 
 - lifecycle structure
 - lifecycle transition processes
+- reusable document templates
 - document naming and identifiers
 - MIL-STD-498 tailoring and derived artifacts
