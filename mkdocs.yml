@@ -18,6 +18,10 @@ nav:
       - Lifecycle Model: 00_governance/lifecycle_model.md
       - Naming and Identification Convention: 00_governance/naming_identification_convention.md
       - Tailoring and Derived Documents Register: 00_governance/tailoring_derived_documents_register.md
+  - Lifecycle Processes:
+      - Overview: 10_lifecycle/index.md
+      - T0 to B0:
+          - B0 Requirement Capture Process: 10_lifecycle/t0_b0/b0_requirement_capture_process.md
   - Agent Guide: AGENTS.md
 markdown_extensions:
   - tables

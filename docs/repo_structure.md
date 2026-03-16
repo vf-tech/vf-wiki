@@ -26,6 +26,16 @@ The governance source of truth lives under `docs/00_governance/`.
 
 These documents define lifecycle, naming, traceability, and tailoring rules for the repository.
 
+## Lifecycle Process Documents
+
+Lifecycle-stage process guidance lives under `docs/10_lifecycle/`.
+
+- `docs/10_lifecycle/index.md`
+- `docs/10_lifecycle/t0_b0/b0_requirement_capture_process.md`
+
+These documents describe how teams move between lifecycle states and baselines.
+They complement governance rules but do not replace them.
+
 ## Wrapper and Navigation Pages
 
 Some files exist mainly to support browsing and navigation.
@@ -47,3 +57,4 @@ These pages should remain thin and should not drift from the canonical source do
 - Add new canonical knowledge artifacts as plain Markdown in stable repo paths.
 - Keep naming aligned with `docs/00_governance/naming_identification_convention.md`.
 - Prefer extending existing source areas over creating site-only copies.
+- Keep lifecycle process documents under `docs/10_lifecycle/` and templates under a separate top-level docs area when introduced.

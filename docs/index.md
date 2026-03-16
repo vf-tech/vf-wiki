@@ -24,6 +24,9 @@ If you are new to this repository, follow this path:
 4. **Understand how agents and contributors should behave**
    - Read: [Agent Guide](AGENTS.md)
 
+5. **Follow lifecycle transition processes when needed**
+   - Read: [Lifecycle Processes](10_lifecycle/index.md)
+
 After these four steps you should understand:
 
 - how the lifecycle works
@@ -44,5 +47,6 @@ After these four steps you should understand:
 The current baseline covers:
 
 - lifecycle structure
+- lifecycle transition processes
 - document naming and identifiers
 - MIL-STD-498 tailoring and derived artifacts
