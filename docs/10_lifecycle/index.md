@@ -14,6 +14,8 @@ and readiness activities for specific lifecycle transitions.
 
 - [T0 to B0](t0_b0/b0_requirement_capture_process.md) - requirement capture and
   baseline readiness workflow for the initial `SSS-SYS.md` baseline.
+- [B0 Readiness Review](t0_b0/b0_readiness_review.md) - review and decision
+  workflow for establishing the initial `SSS-SYS.md` baseline.
 
 ## Usage
 
